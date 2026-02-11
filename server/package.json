@@ -7,6 +7,9 @@
     "build": "tsc",
     "start": "node dist/server.js"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "canvas": "^2.11.2",

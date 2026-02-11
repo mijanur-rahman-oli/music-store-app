@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express';
 import cors from 'cors';
 import seedrandom from 'seedrandom';
 import { faker } from '@faker-js/faker';
-import { createCanvas } from 'canvas';
+import { createCanvas } from '@napi-rs/canvas';
 
 const app = express();
 const PORT = 3001;
